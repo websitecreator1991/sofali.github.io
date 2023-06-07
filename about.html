@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    </head>
+<body>   
+     
+          <div class="container">
+        <div class="navbar">
+     <div class="logo">
+            <a href="index.html"><img src="images/sofalisemfundoblack.png" width="125px"></a>
+         </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="account.html">Conta</a></li>
+            </ul>    
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+     </div>         
+    </div>             
+    
+<!------------- about us ------->
+    
+   <div class="row">
+            <div class="col-2">
+                <h1 class="title">SOLALI<br>Só belos sofás!</h1>
+                <p class="content">Era uma vez, em 2023, duas jovens empreendedoras apaixonadas por móveis e animais. Elas se chamavam Sofia e Alice, e compartilhavam não apenas uma amizade sólida, mas também uma paixão pela criação de móveis personalizados. Juntas, elas decidiram transformar essa paixão em uma empresa e assim nasceu a SOFALI.<br><br>
+
+O nome da empresa refletia o propósito especial de Sofia e Alice: criar móveis não apenas para animais, mas também para os queridos humanos de estimação. Afinal, eles também merecem conforto e estilo em seus espaços! Combinando suas habilidades em design de interiores e marcenaria, as jovens empreendedoras começaram a oferecer móveis sob encomenda que atendiam às necessidades e preferências tanto dos animais quanto de seus pets.
+<br><br>
+Sofia e Alice sabiam que oferecer um produto de qualidade e personalizado seria a chave para o sucesso. Elas se dedicaram a criar peças únicas, utilizando materiais sustentáveis e duráveis. Além disso, a preocupação com o bem-estar estava sempre presente em suas criações. Assim, cada móvel era cuidadosamente projetado para proporcionar conforto e segurança aos humanos de estimação.
+<br><br>
+Logo, a reputação da SOFALI começou a se espalhar. Os animais ficavam encantados com os móveis personalizados e os humanos pareciam adorar cada novo espaço criado para eles. A empresa rapidamente ganhou reconhecimento na fauna local e começou a receber encomendas de clientes de toda a região. A história da empresa serve de inspiração para muitos, mostrando que é possível construir um negócio de sucesso baseado em valores e propósitos significativos. E assim, Sofia e Laura continuaram a levar sua empresa adiante, espalhando conforto e alegria para os animais e seus donos através de seus móveis personalizados e amorosamente projetados. Enquanto houver amor, a SOFALI nunca falirá.<br><br></p>
+           
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png">
+            </div>
+        
+  
+<!----------- footer -------->
+ 
+             <div class="footer">
+                <div class="container">
+                    <div class="row">
+                            <div class="footer-col-1">
+                                <h3>Baixe o nosso App</h3>
+                                <p>Baixe o App para Android e ios.</p>
+                                <div class="app-logo">
+                                <img src="images/play-store.png">
+                                <img src="images/app-store.png">    
+                                </div>
+                             </div>
+                            <div class="footer-col-2">
+                                <img src="images/sofali-blacknwhite.png">
+                                <p>Nosso próposito é trazer conforto, beleza e sustentabilidade aos sofás para animais e seus humanos de estimação.</p>
+                             </div>
+                            <div class="footer-col-3">
+                                <h3>Links tops</h3>
+                                <ul>
+                                    <li>Cupons</li>
+                                    <li>Gatos na imprensa</li>
+                                    <li>Política ambiental</li>
+                                    <li>Trabalhe conosco</li>
+                                </ul>
+                             </div>
+                        <div class="footer-col-4">
+                                <h3>Segue a gente</h3>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>Instagram</li>
+                                    <li>YouTube</li>
+                                </ul>
+                             </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Todos os direitos reservados 2023 - SOFALI</p>
+                </div>    
+            </div>
+<!-----------js for toggle menu ----------->            
+            
+    <script>
+            var MenuItems = document.getElementById("MenuItems");
+        
+            MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+            </script>        
+</body>    
+</html>
+ 
