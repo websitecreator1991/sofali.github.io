@@ -548,6 +548,9 @@ form a{
     margin: 20px 0;
     font-size: 22px;
     font-weight: bold;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
 }
 
 p {
